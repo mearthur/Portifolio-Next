@@ -5,11 +5,11 @@ export default function Hero() {
       className="flex min-h-screen flex-col items-center justify-center gap-10 text-center md:flex-row md:justify-center md:text-center lg:flex-row lg:justify-center lg:text-center"
     >
       <div className="">
-        <p className="sm:text-md mb-4 font-light tracking-wide text-white md:text-2xl lg:text-5xl">OLÁ, SOU</p>
-        <h1 className="mb-6 font-bold tracking-tight text-white sm:text-5xl md:sm:text-6xl lg:text-8xl">
+        <p className="sm:text-md mb-4 font-light tracking-wide text-white md:text-2xl lg:text-4xl">OLÁ, SOU</p>
+        <h1 className="mb-6 font-bold tracking-tight text-white sm:text-5xl md:sm:text-6xl lg:text-6xl">
           ARTHUR ARAUJO
         </h1>
-        <p className="sm:text-md font-light tracking-wide text-white md:text-2xl lg:text-5xl">
+        <p className="sm:text-md font-light tracking-wide text-white md:text-2xl lg:text-4xl">
           DESENVOLVEDOR FRONT-END/UI DESIGNER
         </p>
       </div>

@@ -55,8 +55,10 @@ export default function Navigation() {
           <a href="#projects" className="text-lg font-medium text-white transition-colors hover:text-gray-400">
             PROJECTS
           </a>
-          <Button variant="liquid" size="lg" className="font-medium">
-            Sou Currículo
+          <Button variant="liquid" size="lg" className="font-medium" asChild>
+            <a href="/curriculo.pdf" target="_blank" rel="noopener noreferrer">
+              Sou Currículo
+            </a>
           </Button>
         </div>
       )}

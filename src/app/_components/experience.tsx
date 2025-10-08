@@ -2,24 +2,38 @@ export default function Experience() {
   const experiences = [
     {
       title: "Desenvolvedor Front-End Pleno",
-      period: "(mai/2022 - atual, 2 anos 11 meses)",
-      company: "Tech Solutions",
+      period: "(nov 2022 - atual, 3 anos 7 meses)",
+      company: "Oxygeni DIT",
       description:
-        "Implementação de funcionalidades complexas em ReactJS e TypeScript. Desenvolvimento de interfaces responsivas e acessíveis. Integração com APIs REST e GraphQL. Otimização de performance e SEO. Trabalho em equipe ágil com metodologia Scrum. Mentoria de desenvolvedores júnior.",
+        "Desenvolvimento e manutenção de aplicações web com React.js, Next.js, TypeScript, JavaScript, HTML, CSS e Tailwind CSS, integradas a APIs REST. Aplicação de UI/UX, criação de protótipos no Figma, documentação técnica e boas práticas de componentização, performance e acessibilidade. Colaboração direta com equipes multidisciplinares, alinhando requisitos e melhorando a experiência do usuário.",
+    },
+    {
+      title: "Desenvolvedor Front-End Pleno",
+      period: "(mai/2023 - atual, 2 anos 6 meses)",
+      company: "Univercidade Ceuma",
+      description:
+        "Liderança no desenvolvimento e manutenção de sistemas acadêmicos com React.js, Next.js e TypeScript, integrados a APIs REST. Atuação em UI/UX, criando protótipos no Figma, aplicando componentização, responsividade e acessibilidade, colaborando com equipes internas para aprimorar a experiência do usuário. Revisão de código, organização de tarefas e implementação de melhorias contínuas, garantindo qualidade e entrega eficiente.",
     },
     {
       title: "Desenvolvedor Front-End Júnior",
-      period: "(mai/2021 - mai/2022, 1 ano)",
-      company: "Digital Agency",
+      period: "(nov/2022 - mai/2023, 7 meses)",
+      company: "Univercidade Ceuma",
       description:
-        "Desenvolvimento de landing pages e sites institucionais. Criação de componentes reutilizáveis em React. Manutenção e melhorias em projetos legados. Implementação de designs responsivos seguindo padrões de UI/UX. Colaboração com equipe de designers e backend.",
+        "Desenvolvimento de aplicações web com HTML, CSS, JavaScript, React.js e TypeScript, priorizando responsividade, performance e acessibilidade. Colaboração em projetos com versionamento em Git e melhorias contínuas de código e interfaces. Promoção após estágio devido a desempenho técnico e proatividade.",
     },
     {
-      title: "Estagiário",
-      period: "(set/2020 - mai/2021, 9 meses)",
-      company: "StartUp Inc",
+      title: "Estágio",
+      period: "(abr/2022 - nov/2022, 8 meses)",
+      company: "Univercidade Ceuma",
       description:
-        "Auxílio no desenvolvimento de interfaces web. Aprendizado de boas práticas de código e versionamento Git. Participação em code reviews e pair programming. Estudos de JavaScript moderno e frameworks. Desenvolvimento de pequenas features e correção de bugs.",
+        "Desenvolvimento de aplicações simples com HTML, CSS e JavaScript, aplicando boas práticas de código, semântica e responsividade. Experiência em trabalho em equipe e versionamento com Git. Participação em treinamentos internos e reuniões para aprendizado prático.",
+    },
+    {
+      title: "Organizador/Instrutor",
+      period: "(jan/2024 - atual, 1ano 10 meses)",
+      company: "Incode - Tech School",
+      description:
+        "Ensino prático de desenvolvimento web com foco em tecnologias modernas como HTML, CSS, JavaScript, TypeScript, React, Next.js, Docker, MySQL e GraphQL. Criação de materiais didáticos, atividades práticas e workshops voltados à aprendizagem ativa. Mentoria em projetos reais, revisão de códigos e orientação em boas práticas de programação, design e deploy, preparando os alunos para o mercado de trabalho.",
     },
   ];
 
@@ -29,11 +43,7 @@ export default function Experience() {
         <h2 className="mt-16 mb-20 text-center text-5xl font-bold">Minha experiência</h2>
         <div className="space-y-6">
           {experiences.map((exp, index) => (
-            <div
-              key={index}
-              className="group bg-gradient-card rounded-2xl border border-white/10 p-8 backdrop-blur-xl"
-              style={{ animationDelay: `${index * 0.1}s` }}
-            >
+            <div key={index} className="group bg-gradient-card rounded-2xl border border-white/10 p-8 backdrop-blur-xl">
               <div className="mb-4 flex items-start gap-2">
                 <div className="group-hover:shadow-glow mt-2 h-3 w-3 rounded-full bg-[#3423A6] transition-shadow" />
                 <div className="flex-1">

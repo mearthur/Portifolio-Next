@@ -11,11 +11,8 @@ export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden">
       <div className="flex w-screen flex-col items-center justify-center">
-        {/* Background */}
         <Image alt="fundo da imagem" src={Background} fill priority className="absolute inset-0 -z-10 object-cover" />
-        {/* Navegação fixa */}
         <Navigation />
-        {/* Hero centralizado */}
         <div className="flex w-[80%] items-center justify-center text-center">
           <Hero />
         </div>
