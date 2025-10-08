@@ -18,7 +18,7 @@ const buttonVariants = cva(
         glass:
           "bg-white/5 text-foreground border border-white/10 backdrop-blur-xl hover:bg-white/10 hover:border-white/20 shadow-card transition-all duration-300",
         liquid:
-          "overflow-hidden bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 text-md text-white border border-blue-500/20 backdrop-blur-sm hover:shadow-lg hover:shadow-blue-400/40 transition-all duration-300 before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent before:translate-x-[-200%] hover:before:translate-x-[200%] before:transition-transform before:duration-700",
+          "overflow-hidden bg-gradient-to-r from-[#24176F] via-[#3423A6] to-[#4B3AE0] text-md text-white border border-blue-500/20 backdrop-blur-sm hover:shadow-lg hover:shadow-blue-400/40 transition-all duration-300 before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent before:translate-x-[-200%] hover:before:translate-x-[200%] before:transition-transform before:duration-700",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
