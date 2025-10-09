@@ -32,9 +32,16 @@ export default function Navigation() {
         </div>
 
         <div className="hidden md:block">
-          <Button variant="liquid" size="lg" className="font-medium">
-            Sou Currículo
-          </Button>
+          <a
+            href="https://drive.google.com/file/d/1uj8UK7OXMHb0Y7FHVQlDYWCupmzs3ZfE/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer"
+          >
+            <Button variant="liquid" size="lg" className="font-medium">
+              Meu Currículo
+            </Button>
+          </a>
         </div>
 
         <div className="flex items-center justify-center md:hidden">
@@ -56,8 +63,13 @@ export default function Navigation() {
             PROJECTS
           </a>
           <Button variant="liquid" size="lg" className="font-medium" asChild>
-            <a href="/curriculo.pdf" target="_blank" rel="noopener noreferrer">
-              Sou Currículo
+            <a
+              href="https://drive.google.com/file/d/1uj8UK7OXMHb0Y7FHVQlDYWCupmzs3ZfE/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+            >
+              Meu Currículo
             </a>
           </Button>
         </div>
