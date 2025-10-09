@@ -33,7 +33,7 @@ export default function Navigation() {
 
         <div className="hidden md:block">
           <a
-            href="https://drive.google.com/file/d/1uj8UK7OXMHb0Y7FHVQlDYWCupmzs3ZfE/view?usp=drive_link"
+            href="https://drive.google.com/file/d/13lR-zu-bj_hC12Cyn8-C_8rkjMg7B6CD/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer"
@@ -64,7 +64,7 @@ export default function Navigation() {
           </a>
           <Button variant="liquid" size="lg" className="font-medium" asChild>
             <a
-              href="https://drive.google.com/file/d/1uj8UK7OXMHb0Y7FHVQlDYWCupmzs3ZfE/view?usp=drive_link"
+              href="https://drive.google.com/file/d/13lR-zu-bj_hC12Cyn8-C_8rkjMg7B6CD/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="cursor-pointer"
