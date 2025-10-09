@@ -32,7 +32,10 @@ export default function About() {
   ];
 
   return (
-    <section className="mx-auto flex w-screen flex-col items-center justify-center px-6 py-20 text-white sm:px-8 md:px-12 lg:px-16">
+    <section
+      id="about"
+      className="mx-auto flex w-screen flex-col items-center justify-center px-6 py-20 text-white sm:px-8 md:px-12 lg:px-16"
+    >
       <div className="mb-6 flex w-[90%] flex-col items-center justify-center gap-6 text-center md:flex-col md:items-center md:justify-center lg:flex-row lg:justify-between lg:text-left">
         <div className="animate-slide-up flex w-full justify-center md:w-2/3 lg:w-1/2">
           <div className="bg-gradient-card shadow-card rounded-3xl backdrop-blur-xl">
