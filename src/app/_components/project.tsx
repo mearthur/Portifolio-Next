@@ -64,7 +64,12 @@ export default function Projects() {
                   </div>
                   <div className="absolute inset-0 flex items-end justify-center gap-3 bg-gradient-to-t from-[#000411]/60 to-transparent pb-6 opacity-100 transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100">
                     <Button variant="glass" size="sm" className="text-white">
-                      <a href={project.project} className="flex flex-row items-center justify-center gap-2">
+                      <a
+                        href={project.project}
+                        className="flex flex-row items-center justify-center gap-2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <ExternalLink className="h-4 w-4 text-white" />
                         Ver projeto
                       </a>
@@ -72,7 +77,12 @@ export default function Projects() {
 
                     {project.link && (
                       <Button variant="glass" size="sm" className="text-white">
-                        <a href={project.link} className="flex flex-row items-center justify-center gap-2">
+                        <a
+                          href={project.link}
+                          className="flex flex-row items-center justify-center gap-2"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <Github className="h-4 w-4 text-white" />
                           Código
                         </a>

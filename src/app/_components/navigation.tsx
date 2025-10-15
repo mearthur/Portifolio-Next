@@ -33,7 +33,7 @@ export default function Navigation() {
 
         <div className="hidden md:block">
           <a
-            href="https://drive.google.com/file/d/13lR-zu-bj_hC12Cyn8-C_8rkjMg7B6CD/view?usp=drive_link"
+            href="https://drive.google.com/file/d/13lR-zu-bj_hC12Cyn8-C_8rkjMg7B6CD/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="cursor-pointer"
