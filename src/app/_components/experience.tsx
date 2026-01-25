@@ -2,14 +2,14 @@ export default function Experience() {
   const experiences = [
     {
       title: "Desenvolvedor Front-End Pleno",
-      period: "(nov 2022 - atual, 3 anos 7 meses)",
-      company: "Oxygeni DIT",
+      period: "(nov 2022 - jan 2026, 3 anos 10 meses)",
+      company: "Oxygeni",
       description:
         "Desenvolvimento e manutenção de aplicações web com React.js, Next.js, TypeScript, JavaScript, HTML, CSS e Tailwind CSS, integradas a APIs REST. Aplicação de UI/UX, criação de protótipos no Figma, documentação técnica e boas práticas de componentização, performance e acessibilidade. Colaboração direta com equipes multidisciplinares, alinhando requisitos e melhorando a experiência do usuário.",
     },
     {
       title: "Desenvolvedor Front-End Pleno",
-      period: "(mai/2023 - atual, 2 anos 6 meses)",
+      period: "(mai/2023 - jan 2026, 2 anos 9 meses)",
       company: "Univercidade Ceuma",
       description:
         "Liderança no desenvolvimento e manutenção de sistemas acadêmicos com React.js, Next.js e TypeScript, integrados a APIs REST. Atuação em UI/UX, criando protótipos no Figma, aplicando componentização, responsividade e acessibilidade, colaborando com equipes internas para aprimorar a experiência do usuário. Revisão de código, organização de tarefas e implementação de melhorias contínuas, garantindo qualidade e entrega eficiente.",
@@ -30,7 +30,7 @@ export default function Experience() {
     },
     {
       title: "Organizador/Instrutor",
-      period: "(jan/2024 - atual, 1ano 10 meses)",
+      period: "(jan/2024 - jan 2026, 2ano 1 meses)",
       company: "Incode - Tech School",
       description:
         "Ensino prático de desenvolvimento web com foco em tecnologias modernas como HTML, CSS, JavaScript, TypeScript, React, Next.js, Docker, MySQL e GraphQL. Criação de materiais didáticos, atividades práticas e workshops voltados à aprendizagem ativa. Mentoria em projetos reais, revisão de códigos e orientação em boas práticas de programação, design e deploy, preparando os alunos para o mercado de trabalho.",

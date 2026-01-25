@@ -10,7 +10,7 @@ export default function Hero() {
           ARTHUR ARAUJO
         </h1>
         <p className="sm:text-md font-light tracking-wide text-white md:text-2xl lg:text-4xl">
-          DESENVOLVEDOR FRONT-END/UI DESIGNER
+          DESENVOLVEDOR FRONT-END | UI/UX DESIGNER
         </p>
       </div>
 

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Hero from "./_components/hero";
 import Navigation from "./_components/navigation";
-import Background from "@/public/Frame 1707482063.png";
+import Background from "@/public/background.png";
 import About from "./_components/about";
 import Experience from "./_components/experience";
 import Projects from "./_components/project";
