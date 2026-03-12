@@ -47,16 +47,20 @@ export default function About() {
           <h2 className="text-4xl font-bold sm:text-5xl lg:text-6xl">Sobre mim</h2>
 
           <p className="text-muted-foreground max-w-3xl text-base leading-relaxed sm:text-lg md:mx-auto lg:mx-0">
-            Sou Desenvolvedor Front-End e Designer UI/UX com mais de 3 anos de experiência, especializado em HTML, CSS,
-            JavaScript, React, TypeScript, Next.js e Figma. Tenho como propósito unir tecnologia e design para criar
-            interfaces que encantam, facilitam e geram impacto real. <br /> <br />
-            Ao longo da minha trajetória, venho desenvolvendo soluções digitais que aliam estética, usabilidade e
-            performance, sempre com foco na melhor experiência para o usuário. Atualmente, atuo como líder de equipe,
-            coordenando projetos, apoiando o crescimento técnico de colegas e garantindo entregas de alta qualidade.
+            Sou Desenvolvedor Front-End com forte atuação na construção de aplicações web escaláveis, performáticas e
+            orientadas a produto, unindo engenharia e experiência do usuário como parte central das decisões técnicas.
             <br />
             <br />
-            Sou movido por desafios e aprendizado contínuo, acreditando que cada projeto é uma nova oportunidade de
-            inovar, colaborar e evoluir como profissional.
+            Especializado em React, Next.js e TypeScript, atuo na definição de arquitetura de componentes, padronização
+            de código e melhoria contínua da experiência do usuário. Tenho participação ativa em UI/UX, contribuindo na
+            criação de protótipos, design systems e definição de fluxos centrados no usuário. Minha atuação vai além da
+            implementação: participo de decisões técnicas, organização de demandas e alinhamento entre tecnologia,
+            design e objetivos de negócio.
+            <br />
+            <br />
+            Tenho experiência em liderança técnica, revisão de código e mentoria, contribuindo para a evolução do time e
+            maior previsibilidade nas entregas. Busco desafios que envolvam crescimento técnico, impacto real no produto
+            e construção de experiências digitais consistentes, acessíveis e orientadas a resultados.
           </p>
         </div>
       </div>
